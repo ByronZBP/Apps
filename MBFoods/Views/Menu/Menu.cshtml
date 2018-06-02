@@ -1,0 +1,52 @@
+﻿@{
+    ViewBag.Title = "Menu";
+}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/menu.css">
+</head>
+<body>
+<!-- Header -->
+<div class="header" id="myHeader">
+    <h1>Our Menu</h1>
+    <div id="logoSheen" class="logo-sheen">
+        <a class="icon"></a>
+        <img src="images/Sandwich.jpg" class="to-sheen">
+        <img src="images/theSheenSimple.png" class="the-sheen">
+    </div>
+    <p>Tap On Item To Open</p>
+    <button class="btn active" onclick="two()">2</button>
+    <button class="btn" onclick="four()">4</button>
+</div>
+
+<!-- Photo Grid -->
+<div class="row">
+    <div class="column">
+        <img src="images/Bananas.jpg" alt="" style="width:100%">
+        <img src="images/Breakfast.jpg" style="width:100%">
+        <img src="images/Breyani.jpg" style="width:100%">
+    </div>
+    <div class="column">
+        <img src="images/Curry.jpg" style="width:100%">
+        <img src="images/Donut.jpg" style="width:100%">
+        <img src="images/SteakNVeggies.jpg" style="width:100%">
+    </div>
+    <div class="column">
+        <img src="images/BunnyChow.jpg" style="width:100%">
+        <img src="images/BurgerMeal.jpg" style="width:100%">
+        <img src="images/BurgerNChips.jpg" style="width:100%">
+    </div>
+    <div class="column">
+        <img src="images/ChickenNChips.jpg" style="width:100%">
+        <img src="images/HotDog.jpg" style="width:100%">
+        <img src="images/Sandwich.jpg" style="width:100%">
+    </div>
+</div>
+
+<script src="src/menu.js"></script>
+
+</body>
+</html>
